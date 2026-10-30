@@ -8,7 +8,9 @@ GOAL: Experiment with NLP, Computer Vision on album artwork and various combined
 
 STACK: The data is stored in a local Postgres database and pulled via SQLALCHEMY into a CONDA/Miniforge python environment run through the VS CODE IDE.
 
-AI USAGE: Github Copilot was used for bug testing and syntax help, but the architecture and code structure was designed by me.
+DEPENDECIES: Consult Dependecies.md to set up your environment. PLEASE NOTE: The original underlying data is not available so you'll need your own album review text data.
+
+AI USAGE: Github Copilot was used for bug testing and syntax help, but the architecture and code structure was designed by me. AI was alos used to type requirements-dev and Dependencies.md, though it was heavily reviewed.
 -------------------------------
 CURRENT STATUS: I am still working on the album art computer vision portion of this project. Currently working on quickly webscraping stored URL's for album art.
 
