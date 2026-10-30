@@ -1,6 +1,6 @@
 Album Review Modeling Project:
 
-OVERVIEW: The basis of this project is various text documents that contain notes I have taken for 3 years on a daily new album. The reviews range from multiple paragraphs to a few sentences and all have a 0-10 score.
+OVERVIEW: The basis of this project is various text documents that contain notes I have taken for 3 years on a daily new album. The reviews range from multiple paragraphs to a few sentences and all have a 0-10 score. I want to see if my listening and rating process can be replicated by Machine Learning.
 
 DATA: txt files of music reviews (not on github)
 
