@@ -1,0 +1,6 @@
+# Include all core project dependencies
+-r requirements.txt
+
+# Interactive development
+jupyter
+ipykernel
