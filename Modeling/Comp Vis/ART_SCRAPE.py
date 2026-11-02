@@ -169,7 +169,7 @@ def musicbrainz_get(url, params=None, max_retries=MAX_RETRIES):
                     if wait_seconds <= 0:
                         raise ValueError("Retry-After must be positive")
                 except (TypeError, ValueError):
-                    wait_seconds = 10 * (2 ** attempt)
+                    wait_seconds = 6 * (2 ** attempt)
 
                 logger.warning(
                     "MusicBrainz HTTP %s. Retrying after %.0f seconds.",
@@ -186,7 +186,7 @@ def musicbrainz_get(url, params=None, max_retries=MAX_RETRIES):
             if attempt == max_retries - 1:
                 raise
 
-            wait_seconds = 10 * (2 ** attempt)
+            wait_seconds = 6 * (2 ** attempt)
             logger.warning(
                 "MusicBrainz request failed: %s. Retrying in %.0f seconds.",
                 exc,
